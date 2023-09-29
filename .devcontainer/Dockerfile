@@ -1,5 +1,5 @@
 ARG VARIANT="stable"
-FROM riestere/modus-linux-30:${VARIANT}
+FROM bellyels/modus-linux-30:${VARIANT}
 
 USER root
 RUN mkdir /home/vscode
